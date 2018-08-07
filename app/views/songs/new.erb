@@ -8,7 +8,7 @@
 
 
   <%@genres.each do |genre|%>
-  <%binding.pry%>
+  <%=binding.pry%>
   <input type="checkbox" name="song[genre_id][]" value="<%=genre.id%>" id="<%=genre.id>"> <%=genre.name%></input>
 
   <label>Artist Name:</label>
