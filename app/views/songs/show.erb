@@ -1,6 +1,6 @@
 
 <h1> Artists <h1>
-  <%@song.each do |song|%>
+  <%@songs.each do |song|%>
   <%= song.name %>
     <%=song.artist.name%>
       <a href='/artists/<%=song.artist.slug%>'> <%= @song.artist.name %> </a>
