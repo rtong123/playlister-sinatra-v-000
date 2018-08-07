@@ -18,6 +18,10 @@ class SongsController < ApplicationController
   post '/songs' do
   end
 
+  get '/songs/:slug/edit' do
+    
+  end
+
 
 
 
