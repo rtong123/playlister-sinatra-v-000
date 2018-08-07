@@ -16,7 +16,7 @@ class SongsController < ApplicationController
   end
 
   post '/songs' do
-    redirect to '/song/:slug'
+    redirect to '/songs/:slug'
   end
 
   get '/songs/:slug/edit' do
