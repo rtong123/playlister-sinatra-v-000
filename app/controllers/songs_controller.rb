@@ -6,7 +6,7 @@ class SongsController < ApplicationController
     erb :'/songs/index'
   end
 
-  get 'songs/new' do
+  get '/songs/new' do
     binding.pry
     erb :'/songs/new'
   end
